@@ -44,3 +44,32 @@ main img {
     text-align: center;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+.container input {
+    border: none;
+    width: 300px;
+    border: solid lightpink 2px;
+    
+}
+
+button {
+
+    border: none;
+    width: 100%;
+    color: white;
+    background-color: lightpink;
+    height: 2px;
+}
+
+button:hover {
+    height: 30px;
+    transition: 1s;
+}
+
